@@ -1,0 +1,226 @@
+Watching for file changes with StatReloader
+C:\Users\sonym\project\venv\Userssonymprojectvenv\Django\mydjango\myapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\sonym\project\venv\Userssonymprojectvenv\Django\mydjango\myapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\sonym\project\venv\Userssonymprojectvenv\Django\mydjango\myapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /about/ HTTP/1.1" 200 27
+Not Found: /prefix
+"GET /prefix HTTP/1.1" 404 2425
+Not Found: /prefix
+"GET /prefix HTTP/1.1" 404 2425
+Not Found: /prefix/
+"GET /prefix/ HTTP/1.1" 404 2428
+Not Found: /prefix/
+"GET /prefix/ HTTP/1.1" 404 2428
+Not Found: /index
+"GET /index HTTP/1.1" 404 2422
+Not Found: /index
+"GET /index HTTP/1.1" 404 2422
+Watching for file changes with StatReloader
+Not Found: /prefix
+"GET /prefix HTTP/1.1" 404 2425
+Not Found: /prefix-
+"GET /prefix- HTTP/1.1" 404 2428
+"GET / HTTP/1.1" 200 13
+C:\Users\sonym\project\venv\Userssonymprojectvenv\Django\mydjango\mydjango\settings.py changed, reloading.
+Watching for file changes with StatReloader
+Index page accessed
+"GET / HTTP/1.1" 200 13
+Error in about page: division by zero
+Traceback (most recent call last):
+  File "C:\Users\sonym\project\venv\Userssonymprojectvenv\Django\mydjango\myapp\views.py", line 16, in about
+    result = 1 / 0
+             ~~^~~
+ZeroDivisionError: division by zero
+"GET /about/ HTTP/1.1" 200 27
+C:\Users\sonym\project\venv\Userssonymprojectvenv\Django\mydjango\mydjango\settings.py changed, reloading.
+INFO 2024-02-09 18:23:32,462 autoreload 8864 10628 Watching for file changes with StatReloader
+INFO 2024-02-09 18:23:41,454 views 8864 12544 Index page accessed
+INFO 2024-02-09 18:23:41,455 basehttp 8864 12544 "GET / HTTP/1.1" 200 13
+ERROR 2024-02-09 18:24:40,236 views 8864 7032 Error in about page: division by zero
+Traceback (most recent call last):
+  File "C:\Users\sonym\project\venv\Userssonymprojectvenv\Django\mydjango\myapp\views.py", line 16, in about
+    result = 1 / 0
+             ~~^~~
+ZeroDivisionError: division by zero
+INFO 2024-02-09 18:24:40,237 basehttp 8864 7032 "GET /about/ HTTP/1.1" 200 27
+INFO 2024-02-09 18:24:46,466 views 8864 7032 Index page accessed
+INFO 2024-02-09 18:24:46,468 basehttp 8864 7032 "GET / HTTP/1.1" 200 13
+INFO 2024-02-09 18:24:47,394 views 8864 7032 Index page accessed
+INFO 2024-02-09 18:24:47,395 basehttp 8864 7032 "GET / HTTP/1.1" 200 13
+INFO 2024-02-12 15:28:40,237 autoreload 21972 14084 Watching for file changes with StatReloader
+INFO 2024-02-12 15:28:51,984 views 21972 26048 visit page "index" at: 2024-02-12 15:28:51.984102
+INFO 2024-02-12 15:28:51,995 basehttp 21972 26048 "GET / HTTP/1.1" 200 1259
+WARNING 2024-02-12 15:28:52,349 log 21972 27760 Not Found: /favicon.ico
+WARNING 2024-02-12 15:28:52,350 basehttp 21972 27760 "GET /favicon.ico HTTP/1.1" 404 2449
+INFO 2024-02-12 15:32:05,050 views 21972 272 посещение страницы about в: 2024-02-12 15:32:05.050829
+ERROR 2024-02-12 15:32:05,144 log 21972 272 Internal Server Error: /about/
+Traceback (most recent call last):
+  File "C:\Users\sonym\project\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sonym\project\venv\Lib\site-packages\django\core\handlers\base.py", line 204, in _get_response
+    self.check_response(response, callback)
+  File "C:\Users\sonym\project\venv\Lib\site-packages\django\core\handlers\base.py", line 332, in check_response
+    raise ValueError(
+ValueError: The view myapp.views.about didn't return an HttpResponse object. It returned None instead.
+ERROR 2024-02-12 15:32:05,148 basehttp 21972 272 "GET /about/ HTTP/1.1" 500 76904
+WARNING 2024-02-12 15:32:24,151 log 21972 13860 Not Found: /штвуч
+WARNING 2024-02-12 15:32:24,153 basehttp 21972 13860 "GET /%D1%88%D1%82%D0%B2%D1%83%D1%87 HTTP/1.1" 404 2466
+INFO 2024-02-12 15:32:38,322 basehttp 21972 30852 "GET /about HTTP/1.1" 301 0
+INFO 2024-02-12 15:32:38,329 views 21972 9992 посещение страницы about в: 2024-02-12 15:32:38.329821
+ERROR 2024-02-12 15:32:38,367 log 21972 9992 Internal Server Error: /about/
+Traceback (most recent call last):
+  File "C:\Users\sonym\project\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sonym\project\venv\Lib\site-packages\django\core\handlers\base.py", line 204, in _get_response
+    self.check_response(response, callback)
+  File "C:\Users\sonym\project\venv\Lib\site-packages\django\core\handlers\base.py", line 332, in check_response
+    raise ValueError(
+ValueError: The view myapp.views.about didn't return an HttpResponse object. It returned None instead.
+ERROR 2024-02-12 15:32:38,377 basehttp 21972 9992 "GET /about/ HTTP/1.1" 500 76904
+WARNING 2024-02-12 15:32:47,901 log 21972 25564 Not Found: /index/
+WARNING 2024-02-12 15:32:47,902 basehttp 21972 25564 "GET /index/ HTTP/1.1" 404 2434
+INFO 2024-02-12 15:34:01,550 autoreload 21972 14084 C:\Users\sonym\project\venv\Userssonymprojectvenv\Django\mydjango\mydjango\settings.py changed, reloading.
+INFO 2024-02-12 15:34:02,712 autoreload 12548 19448 Watching for file changes with StatReloader
+WARNING 2024-02-12 15:34:03,016 log 12548 9028 Not Found: /index/
+WARNING 2024-02-12 15:34:03,018 basehttp 12548 9028 "GET /index/ HTTP/1.1" 404 179
+INFO 2024-02-12 15:34:05,978 views 12548 9028 посещение страницы about в: 2024-02-12 15:34:05.978428
+ERROR 2024-02-12 15:34:05,979 log 12548 9028 Internal Server Error: /about/
+Traceback (most recent call last):
+  File "C:\Users\sonym\project\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sonym\project\venv\Lib\site-packages\django\core\handlers\base.py", line 204, in _get_response
+    self.check_response(response, callback)
+  File "C:\Users\sonym\project\venv\Lib\site-packages\django\core\handlers\base.py", line 332, in check_response
+    raise ValueError(
+ValueError: The view myapp.views.about didn't return an HttpResponse object. It returned None instead.
+ERROR 2024-02-12 15:34:05,984 basehttp 12548 9028 "GET /about/ HTTP/1.1" 500 145
+INFO 2024-02-12 15:34:32,245 autoreload 12548 19448 C:\Users\sonym\project\venv\Userssonymprojectvenv\Django\mydjango\mydjango\settings.py changed, reloading.
+INFO 2024-02-12 15:34:33,455 autoreload 18888 11376 Watching for file changes with StatReloader
+INFO 2024-02-12 15:41:21,398 views 18888 16824 visit page "index" at: 2024-02-12 15:41:21.398956
+INFO 2024-02-12 15:41:21,403 basehttp 18888 16824 "GET / HTTP/1.1" 200 1259
+INFO 2024-02-12 15:41:22,344 views 18888 16824 visit page "index" at: 2024-02-12 15:41:22.344719
+INFO 2024-02-12 15:41:22,345 basehttp 18888 16824 "GET / HTTP/1.1" 200 1259
+INFO 2024-02-12 16:24:07,383 autoreload 18888 11376 C:\Users\sonym\project\venv\Userssonymprojectvenv\Django\mydjango\myapp\urls.py changed, reloading.
+INFO 2024-02-12 16:24:08,194 autoreload 8680 21736 Watching for file changes with StatReloader
+INFO 2024-02-12 16:24:38,944 autoreload 8680 21736 C:\Users\sonym\project\venv\Userssonymprojectvenv\Django\mydjango\myapp\urls.py changed, reloading.
+INFO 2024-02-12 16:24:39,515 autoreload 22736 7000 Watching for file changes with StatReloader
+INFO 2024-02-12 16:25:49,727 autoreload 22736 7000 C:\Users\sonym\project\venv\Userssonymprojectvenv\Django\mydjango\myapp\urls.py changed, reloading.
+INFO 2024-02-12 16:25:50,263 autoreload 21320 15300 Watching for file changes with StatReloader
+INFO 2024-02-12 16:26:05,129 views 21320 30360 посещение страницы index в: 2024-02-12 16:26:05.129038
+ERROR 2024-02-12 16:26:05,188 log 21320 30360 Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Users\sonym\project\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sonym\project\venv\Lib\site-packages\django\core\handlers\base.py", line 220, in _get_response
+    response = response.render()
+               ^^^^^^^^^^^^^^^^^
+  File "C:\Users\sonym\project\venv\Lib\site-packages\django\template\response.py", line 114, in render
+    self.content = self.rendered_content
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sonym\project\venv\Lib\site-packages\django\template\response.py", line 90, in rendered_content
+    template = self.resolve_template(self.template_name)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sonym\project\venv\Lib\site-packages\django\template\response.py", line 72, in resolve_template
+    return select_template(template, using=self.using)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sonym\project\venv\Lib\site-packages\django\template\loader.py", line 47, in select_template
+    raise TemplateDoesNotExist(", ".join(template_name_list), chain=chain)
+django.template.exceptions.TemplateDoesNotExist: myapp/index.html
+ERROR 2024-02-12 16:26:05,194 basehttp 21320 30360 "GET / HTTP/1.1" 500 90445
+INFO 2024-02-12 16:50:43,559 autoreload 21320 15300 C:\Users\sonym\project\venv\Userssonymprojectvenv\Django\mydjango\mydjango\settings.py changed, reloading.
+INFO 2024-02-12 16:50:44,185 autoreload 14012 11880 Watching for file changes with StatReloader
+INFO 2024-02-12 16:50:54,765 views 14012 10108 посещение страницы index в: 2024-02-12 16:50:54.765305
+ERROR 2024-02-12 16:50:54,821 log 14012 10108 Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Users\sonym\project\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sonym\project\venv\Lib\site-packages\django\core\handlers\base.py", line 220, in _get_response
+    response = response.render()
+               ^^^^^^^^^^^^^^^^^
+  File "C:\Users\sonym\project\venv\Lib\site-packages\django\template\response.py", line 114, in render
+    self.content = self.rendered_content
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sonym\project\venv\Lib\site-packages\django\template\response.py", line 90, in rendered_content
+    template = self.resolve_template(self.template_name)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sonym\project\venv\Lib\site-packages\django\template\response.py", line 72, in resolve_template
+    return select_template(template, using=self.using)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sonym\project\venv\Lib\site-packages\django\template\loader.py", line 47, in select_template
+    raise TemplateDoesNotExist(", ".join(template_name_list), chain=chain)
+django.template.exceptions.TemplateDoesNotExist: myapp/index.html
+ERROR 2024-02-12 16:50:54,826 basehttp 14012 10108 "GET / HTTP/1.1" 500 90956
+INFO 2024-02-12 16:51:56,713 autoreload 14012 11880 C:\Users\sonym\project\venv\Userssonymprojectvenv\Django\mydjango\mydjango\settings.py changed, reloading.
+INFO 2024-02-12 16:51:57,298 autoreload 28440 6336 Watching for file changes with StatReloader
+INFO 2024-02-12 16:52:09,142 views 28440 20832 посещение страницы index в: 2024-02-12 16:52:09.142226
+ERROR 2024-02-12 16:52:09,185 log 28440 20832 Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Users\sonym\project\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sonym\project\venv\Lib\site-packages\django\core\handlers\base.py", line 220, in _get_response
+    response = response.render()
+               ^^^^^^^^^^^^^^^^^
+  File "C:\Users\sonym\project\venv\Lib\site-packages\django\template\response.py", line 114, in render
+    self.content = self.rendered_content
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sonym\project\venv\Lib\site-packages\django\template\response.py", line 90, in rendered_content
+    template = self.resolve_template(self.template_name)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sonym\project\venv\Lib\site-packages\django\template\response.py", line 72, in resolve_template
+    return select_template(template, using=self.using)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sonym\project\venv\Lib\site-packages\django\template\loader.py", line 47, in select_template
+    raise TemplateDoesNotExist(", ".join(template_name_list), chain=chain)
+django.template.exceptions.TemplateDoesNotExist: myapp/index.html
+ERROR 2024-02-12 16:52:09,190 basehttp 28440 20832 "GET / HTTP/1.1" 500 90956
+INFO 2024-02-12 16:53:17,949 autoreload 28440 6336 C:\Users\sonym\project\venv\Userssonymprojectvenv\Django\mydjango\mydjango\settings.py changed, reloading.
+INFO 2024-02-12 16:53:18,556 autoreload 1580 31296 Watching for file changes with StatReloader
+INFO 2024-02-12 17:34:33,105 autoreload 1580 31296 C:\Users\sonym\project\venv\Userssonymprojectvenv\Django\mydjango\myapp\views.py changed, reloading.
+INFO 2024-02-12 17:34:33,909 autoreload 31072 26900 Watching for file changes with StatReloader
+INFO 2024-02-12 17:46:46,179 views 31072 16728 посещение страницы index в: 2024-02-12 17:46:46.179105
+ERROR 2024-02-12 17:46:46,300 log 31072 16728 Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Users\sonym\project\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sonym\project\venv\Lib\site-packages\django\core\handlers\base.py", line 220, in _get_response
+    response = response.render()
+               ^^^^^^^^^^^^^^^^^
+  File "C:\Users\sonym\project\venv\Lib\site-packages\django\template\response.py", line 114, in render
+    self.content = self.rendered_content
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sonym\project\venv\Lib\site-packages\django\template\response.py", line 90, in rendered_content
+    template = self.resolve_template(self.template_name)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sonym\project\venv\Lib\site-packages\django\template\response.py", line 72, in resolve_template
+    return select_template(template, using=self.using)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sonym\project\venv\Lib\site-packages\django\template\loader.py", line 47, in select_template
+    raise TemplateDoesNotExist(", ".join(template_name_list), chain=chain)
+django.template.exceptions.TemplateDoesNotExist: myapp/index.html
+ERROR 2024-02-12 17:46:46,308 basehttp 31072 16728 "GET / HTTP/1.1" 500 90819
+INFO 2024-02-12 18:05:52,163 views 31072 21296 посещение страницы index в: 2024-02-12 18:05:52.163800
+INFO 2024-02-12 18:05:52,170 basehttp 31072 21296 "GET / HTTP/1.1" 200 1234
+INFO 2024-02-12 18:06:02,409 views 31072 21296 посещение страницы about в: 2024-02-12 18:06:02.409912
+INFO 2024-02-12 18:06:02,411 basehttp 31072 21296 "GET /about/ HTTP/1.1" 200 1116
+WARNING 2024-02-12 18:14:29,223 log 31072 17196 Not Found: /index/
+WARNING 2024-02-12 18:14:29,224 basehttp 31072 17196 "GET /index/ HTTP/1.1" 404 2434
+INFO 2024-02-12 18:14:40,776 views 31072 1568 посещение страницы index в: 2024-02-12 18:14:40.776642
+INFO 2024-02-12 18:14:40,777 basehttp 31072 1568 "GET / HTTP/1.1" 200 1234
+INFO 2024-02-12 18:15:08,511 views 31072 22116 посещение страницы about в: 2024-02-12 18:15:08.511539
+INFO 2024-02-12 18:15:08,513 basehttp 31072 22116 "GET /about/ HTTP/1.1" 200 1116
+INFO 2024-02-12 18:18:13,916 autoreload 31072 26900 C:\Users\sonym\project\venv\Userssonymprojectvenv\Django\mydjango\mydjango\settings.py changed, reloading.
+INFO 2024-02-12 18:18:14,635 autoreload 26484 13820 Watching for file changes with StatReloader
+INFO 2024-02-12 18:22:02,553 autoreload 26484 13820 C:\Users\sonym\project\venv\Userssonymprojectvenv\Django\mydjango\myapp\views.py changed, reloading.
+INFO 2024-02-12 18:22:03,199 autoreload 22904 5224 Watching for file changes with StatReloader
+INFO 2024-02-12 18:22:43,120 autoreload 22904 5224 C:\Users\sonym\project\venv\Userssonymprojectvenv\Django\mydjango\manage.py changed, reloading.
+INFO 2024-02-12 18:22:43,707 autoreload 2600 10724 Watching for file changes with StatReloader
