@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Customer Orders</title>
+</head>
+<body>
+    <h1>Customer: {{ customer.name }}</h1>
+    
+    {% for order in orders %}
+        <h2>Order: {{ order.id }} - {{ order.date_ordered }}</h2>
+        <ul>
+            {% for product in order.products.all %}
+                <li>{{ product.name }} - {{ product.price }}</li>
+            {% endfor %}
+        </ul>
+        <p>Total Price: {{ order.total_price }}</p>
+    {% endfor %}
+</body>
+</html>
+
