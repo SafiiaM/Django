@@ -1,0 +1,511 @@
+Watching for file changes with StatReloader
+C:\Users\sonym\project\venv\Userssonymprojectvenv\Django\mydjango\myapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\sonym\project\venv\Userssonymprojectvenv\Django\mydjango\myapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\sonym\project\venv\Userssonymprojectvenv\Django\mydjango\myapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /about/ HTTP/1.1" 200 27
+Not Found: /prefix
+"GET /prefix HTTP/1.1" 404 2425
+Not Found: /prefix
+"GET /prefix HTTP/1.1" 404 2425
+Not Found: /prefix/
+"GET /prefix/ HTTP/1.1" 404 2428
+Not Found: /prefix/
+"GET /prefix/ HTTP/1.1" 404 2428
+Not Found: /index
+"GET /index HTTP/1.1" 404 2422
+Not Found: /index
+"GET /index HTTP/1.1" 404 2422
+Watching for file changes with StatReloader
+Not Found: /prefix
+"GET /prefix HTTP/1.1" 404 2425
+Not Found: /prefix-
+"GET /prefix- HTTP/1.1" 404 2428
+"GET / HTTP/1.1" 200 13
+C:\Users\sonym\project\venv\Userssonymprojectvenv\Django\mydjango\mydjango\settings.py changed, reloading.
+Watching for file changes with StatReloader
+Index page accessed
+"GET / HTTP/1.1" 200 13
+Error in about page: division by zero
+Traceback (most recent call last):
+  File "C:\Users\sonym\project\venv\Userssonymprojectvenv\Django\mydjango\myapp\views.py", line 16, in about
+    result = 1 / 0
+             ~~^~~
+ZeroDivisionError: division by zero
+"GET /about/ HTTP/1.1" 200 27
+C:\Users\sonym\project\venv\Userssonymprojectvenv\Django\mydjango\mydjango\settings.py changed, reloading.
+INFO 2024-02-09 18:23:32,462 autoreload 8864 10628 Watching for file changes with StatReloader
+INFO 2024-02-09 18:23:41,454 views 8864 12544 Index page accessed
+INFO 2024-02-09 18:23:41,455 basehttp 8864 12544 "GET / HTTP/1.1" 200 13
+ERROR 2024-02-09 18:24:40,236 views 8864 7032 Error in about page: division by zero
+Traceback (most recent call last):
+  File "C:\Users\sonym\project\venv\Userssonymprojectvenv\Django\mydjango\myapp\views.py", line 16, in about
+    result = 1 / 0
+             ~~^~~
+ZeroDivisionError: division by zero
+INFO 2024-02-09 18:24:40,237 basehttp 8864 7032 "GET /about/ HTTP/1.1" 200 27
+INFO 2024-02-09 18:24:46,466 views 8864 7032 Index page accessed
+INFO 2024-02-09 18:24:46,468 basehttp 8864 7032 "GET / HTTP/1.1" 200 13
+INFO 2024-02-09 18:24:47,394 views 8864 7032 Index page accessed
+INFO 2024-02-09 18:24:47,395 basehttp 8864 7032 "GET / HTTP/1.1" 200 13
+INFO 2024-02-12 15:28:40,237 autoreload 21972 14084 Watching for file changes with StatReloader
+INFO 2024-02-12 15:28:51,984 views 21972 26048 visit page "index" at: 2024-02-12 15:28:51.984102
+INFO 2024-02-12 15:28:51,995 basehttp 21972 26048 "GET / HTTP/1.1" 200 1259
+WARNING 2024-02-12 15:28:52,349 log 21972 27760 Not Found: /favicon.ico
+WARNING 2024-02-12 15:28:52,350 basehttp 21972 27760 "GET /favicon.ico HTTP/1.1" 404 2449
+INFO 2024-02-12 15:32:05,050 views 21972 272 посещение страницы about в: 2024-02-12 15:32:05.050829
+ERROR 2024-02-12 15:32:05,144 log 21972 272 Internal Server Error: /about/
+Traceback (most recent call last):
+  File "C:\Users\sonym\project\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sonym\project\venv\Lib\site-packages\django\core\handlers\base.py", line 204, in _get_response
+    self.check_response(response, callback)
+  File "C:\Users\sonym\project\venv\Lib\site-packages\django\core\handlers\base.py", line 332, in check_response
+    raise ValueError(
+ValueError: The view myapp.views.about didn't return an HttpResponse object. It returned None instead.
+ERROR 2024-02-12 15:32:05,148 basehttp 21972 272 "GET /about/ HTTP/1.1" 500 76904
+WARNING 2024-02-12 15:32:24,151 log 21972 13860 Not Found: /штвуч
+WARNING 2024-02-12 15:32:24,153 basehttp 21972 13860 "GET /%D1%88%D1%82%D0%B2%D1%83%D1%87 HTTP/1.1" 404 2466
+INFO 2024-02-12 15:32:38,322 basehttp 21972 30852 "GET /about HTTP/1.1" 301 0
+INFO 2024-02-12 15:32:38,329 views 21972 9992 посещение страницы about в: 2024-02-12 15:32:38.329821
+ERROR 2024-02-12 15:32:38,367 log 21972 9992 Internal Server Error: /about/
+Traceback (most recent call last):
+  File "C:\Users\sonym\project\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sonym\project\venv\Lib\site-packages\django\core\handlers\base.py", line 204, in _get_response
+    self.check_response(response, callback)
+  File "C:\Users\sonym\project\venv\Lib\site-packages\django\core\handlers\base.py", line 332, in check_response
+    raise ValueError(
+ValueError: The view myapp.views.about didn't return an HttpResponse object. It returned None instead.
+ERROR 2024-02-12 15:32:38,377 basehttp 21972 9992 "GET /about/ HTTP/1.1" 500 76904
+WARNING 2024-02-12 15:32:47,901 log 21972 25564 Not Found: /index/
+WARNING 2024-02-12 15:32:47,902 basehttp 21972 25564 "GET /index/ HTTP/1.1" 404 2434
+INFO 2024-02-12 15:34:01,550 autoreload 21972 14084 C:\Users\sonym\project\venv\Userssonymprojectvenv\Django\mydjango\mydjango\settings.py changed, reloading.
+INFO 2024-02-12 15:34:02,712 autoreload 12548 19448 Watching for file changes with StatReloader
+WARNING 2024-02-12 15:34:03,016 log 12548 9028 Not Found: /index/
+WARNING 2024-02-12 15:34:03,018 basehttp 12548 9028 "GET /index/ HTTP/1.1" 404 179
+INFO 2024-02-12 15:34:05,978 views 12548 9028 посещение страницы about в: 2024-02-12 15:34:05.978428
+ERROR 2024-02-12 15:34:05,979 log 12548 9028 Internal Server Error: /about/
+Traceback (most recent call last):
+  File "C:\Users\sonym\project\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sonym\project\venv\Lib\site-packages\django\core\handlers\base.py", line 204, in _get_response
+    self.check_response(response, callback)
+  File "C:\Users\sonym\project\venv\Lib\site-packages\django\core\handlers\base.py", line 332, in check_response
+    raise ValueError(
+ValueError: The view myapp.views.about didn't return an HttpResponse object. It returned None instead.
+ERROR 2024-02-12 15:34:05,984 basehttp 12548 9028 "GET /about/ HTTP/1.1" 500 145
+INFO 2024-02-12 15:34:32,245 autoreload 12548 19448 C:\Users\sonym\project\venv\Userssonymprojectvenv\Django\mydjango\mydjango\settings.py changed, reloading.
+INFO 2024-02-12 15:34:33,455 autoreload 18888 11376 Watching for file changes with StatReloader
+INFO 2024-02-12 15:41:21,398 views 18888 16824 visit page "index" at: 2024-02-12 15:41:21.398956
+INFO 2024-02-12 15:41:21,403 basehttp 18888 16824 "GET / HTTP/1.1" 200 1259
+INFO 2024-02-12 15:41:22,344 views 18888 16824 visit page "index" at: 2024-02-12 15:41:22.344719
+INFO 2024-02-12 15:41:22,345 basehttp 18888 16824 "GET / HTTP/1.1" 200 1259
+INFO 2024-02-12 16:24:07,383 autoreload 18888 11376 C:\Users\sonym\project\venv\Userssonymprojectvenv\Django\mydjango\myapp\urls.py changed, reloading.
+INFO 2024-02-12 16:24:08,194 autoreload 8680 21736 Watching for file changes with StatReloader
+INFO 2024-02-12 16:24:38,944 autoreload 8680 21736 C:\Users\sonym\project\venv\Userssonymprojectvenv\Django\mydjango\myapp\urls.py changed, reloading.
+INFO 2024-02-12 16:24:39,515 autoreload 22736 7000 Watching for file changes with StatReloader
+INFO 2024-02-12 16:25:49,727 autoreload 22736 7000 C:\Users\sonym\project\venv\Userssonymprojectvenv\Django\mydjango\myapp\urls.py changed, reloading.
+INFO 2024-02-12 16:25:50,263 autoreload 21320 15300 Watching for file changes with StatReloader
+INFO 2024-02-12 16:26:05,129 views 21320 30360 посещение страницы index в: 2024-02-12 16:26:05.129038
+ERROR 2024-02-12 16:26:05,188 log 21320 30360 Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Users\sonym\project\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sonym\project\venv\Lib\site-packages\django\core\handlers\base.py", line 220, in _get_response
+    response = response.render()
+               ^^^^^^^^^^^^^^^^^
+  File "C:\Users\sonym\project\venv\Lib\site-packages\django\template\response.py", line 114, in render
+    self.content = self.rendered_content
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sonym\project\venv\Lib\site-packages\django\template\response.py", line 90, in rendered_content
+    template = self.resolve_template(self.template_name)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sonym\project\venv\Lib\site-packages\django\template\response.py", line 72, in resolve_template
+    return select_template(template, using=self.using)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sonym\project\venv\Lib\site-packages\django\template\loader.py", line 47, in select_template
+    raise TemplateDoesNotExist(", ".join(template_name_list), chain=chain)
+django.template.exceptions.TemplateDoesNotExist: myapp/index.html
+ERROR 2024-02-12 16:26:05,194 basehttp 21320 30360 "GET / HTTP/1.1" 500 90445
+INFO 2024-02-12 16:50:43,559 autoreload 21320 15300 C:\Users\sonym\project\venv\Userssonymprojectvenv\Django\mydjango\mydjango\settings.py changed, reloading.
+INFO 2024-02-12 16:50:44,185 autoreload 14012 11880 Watching for file changes with StatReloader
+INFO 2024-02-12 16:50:54,765 views 14012 10108 посещение страницы index в: 2024-02-12 16:50:54.765305
+ERROR 2024-02-12 16:50:54,821 log 14012 10108 Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Users\sonym\project\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sonym\project\venv\Lib\site-packages\django\core\handlers\base.py", line 220, in _get_response
+    response = response.render()
+               ^^^^^^^^^^^^^^^^^
+  File "C:\Users\sonym\project\venv\Lib\site-packages\django\template\response.py", line 114, in render
+    self.content = self.rendered_content
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sonym\project\venv\Lib\site-packages\django\template\response.py", line 90, in rendered_content
+    template = self.resolve_template(self.template_name)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sonym\project\venv\Lib\site-packages\django\template\response.py", line 72, in resolve_template
+    return select_template(template, using=self.using)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sonym\project\venv\Lib\site-packages\django\template\loader.py", line 47, in select_template
+    raise TemplateDoesNotExist(", ".join(template_name_list), chain=chain)
+django.template.exceptions.TemplateDoesNotExist: myapp/index.html
+ERROR 2024-02-12 16:50:54,826 basehttp 14012 10108 "GET / HTTP/1.1" 500 90956
+INFO 2024-02-12 16:51:56,713 autoreload 14012 11880 C:\Users\sonym\project\venv\Userssonymprojectvenv\Django\mydjango\mydjango\settings.py changed, reloading.
+INFO 2024-02-12 16:51:57,298 autoreload 28440 6336 Watching for file changes with StatReloader
+INFO 2024-02-12 16:52:09,142 views 28440 20832 посещение страницы index в: 2024-02-12 16:52:09.142226
+ERROR 2024-02-12 16:52:09,185 log 28440 20832 Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Users\sonym\project\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sonym\project\venv\Lib\site-packages\django\core\handlers\base.py", line 220, in _get_response
+    response = response.render()
+               ^^^^^^^^^^^^^^^^^
+  File "C:\Users\sonym\project\venv\Lib\site-packages\django\template\response.py", line 114, in render
+    self.content = self.rendered_content
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sonym\project\venv\Lib\site-packages\django\template\response.py", line 90, in rendered_content
+    template = self.resolve_template(self.template_name)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sonym\project\venv\Lib\site-packages\django\template\response.py", line 72, in resolve_template
+    return select_template(template, using=self.using)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sonym\project\venv\Lib\site-packages\django\template\loader.py", line 47, in select_template
+    raise TemplateDoesNotExist(", ".join(template_name_list), chain=chain)
+django.template.exceptions.TemplateDoesNotExist: myapp/index.html
+ERROR 2024-02-12 16:52:09,190 basehttp 28440 20832 "GET / HTTP/1.1" 500 90956
+INFO 2024-02-12 16:53:17,949 autoreload 28440 6336 C:\Users\sonym\project\venv\Userssonymprojectvenv\Django\mydjango\mydjango\settings.py changed, reloading.
+INFO 2024-02-12 16:53:18,556 autoreload 1580 31296 Watching for file changes with StatReloader
+INFO 2024-02-12 17:34:33,105 autoreload 1580 31296 C:\Users\sonym\project\venv\Userssonymprojectvenv\Django\mydjango\myapp\views.py changed, reloading.
+INFO 2024-02-12 17:34:33,909 autoreload 31072 26900 Watching for file changes with StatReloader
+INFO 2024-02-12 17:46:46,179 views 31072 16728 посещение страницы index в: 2024-02-12 17:46:46.179105
+ERROR 2024-02-12 17:46:46,300 log 31072 16728 Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Users\sonym\project\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sonym\project\venv\Lib\site-packages\django\core\handlers\base.py", line 220, in _get_response
+    response = response.render()
+               ^^^^^^^^^^^^^^^^^
+  File "C:\Users\sonym\project\venv\Lib\site-packages\django\template\response.py", line 114, in render
+    self.content = self.rendered_content
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sonym\project\venv\Lib\site-packages\django\template\response.py", line 90, in rendered_content
+    template = self.resolve_template(self.template_name)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sonym\project\venv\Lib\site-packages\django\template\response.py", line 72, in resolve_template
+    return select_template(template, using=self.using)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sonym\project\venv\Lib\site-packages\django\template\loader.py", line 47, in select_template
+    raise TemplateDoesNotExist(", ".join(template_name_list), chain=chain)
+django.template.exceptions.TemplateDoesNotExist: myapp/index.html
+ERROR 2024-02-12 17:46:46,308 basehttp 31072 16728 "GET / HTTP/1.1" 500 90819
+INFO 2024-02-12 18:05:52,163 views 31072 21296 посещение страницы index в: 2024-02-12 18:05:52.163800
+INFO 2024-02-12 18:05:52,170 basehttp 31072 21296 "GET / HTTP/1.1" 200 1234
+INFO 2024-02-12 18:06:02,409 views 31072 21296 посещение страницы about в: 2024-02-12 18:06:02.409912
+INFO 2024-02-12 18:06:02,411 basehttp 31072 21296 "GET /about/ HTTP/1.1" 200 1116
+WARNING 2024-02-12 18:14:29,223 log 31072 17196 Not Found: /index/
+WARNING 2024-02-12 18:14:29,224 basehttp 31072 17196 "GET /index/ HTTP/1.1" 404 2434
+INFO 2024-02-12 18:14:40,776 views 31072 1568 посещение страницы index в: 2024-02-12 18:14:40.776642
+INFO 2024-02-12 18:14:40,777 basehttp 31072 1568 "GET / HTTP/1.1" 200 1234
+INFO 2024-02-12 18:15:08,511 views 31072 22116 посещение страницы about в: 2024-02-12 18:15:08.511539
+INFO 2024-02-12 18:15:08,513 basehttp 31072 22116 "GET /about/ HTTP/1.1" 200 1116
+INFO 2024-02-12 18:18:13,916 autoreload 31072 26900 C:\Users\sonym\project\venv\Userssonymprojectvenv\Django\mydjango\mydjango\settings.py changed, reloading.
+INFO 2024-02-12 18:18:14,635 autoreload 26484 13820 Watching for file changes with StatReloader
+INFO 2024-02-12 18:22:02,553 autoreload 26484 13820 C:\Users\sonym\project\venv\Userssonymprojectvenv\Django\mydjango\myapp\views.py changed, reloading.
+INFO 2024-02-12 18:22:03,199 autoreload 22904 5224 Watching for file changes with StatReloader
+INFO 2024-02-12 18:22:43,120 autoreload 22904 5224 C:\Users\sonym\project\venv\Userssonymprojectvenv\Django\mydjango\manage.py changed, reloading.
+INFO 2024-02-12 18:22:43,707 autoreload 2600 10724 Watching for file changes with StatReloader
+INFO 2024-02-15 11:13:31,504 autoreload 6500 1636 Watching for file changes with StatReloader
+INFO 2024-02-15 11:14:01,087 views 6500 3764 посещение страницы index в: 2024-02-15 11:14:01.087231
+INFO 2024-02-15 11:14:01,094 basehttp 6500 3764 "GET / HTTP/1.1" 200 1234
+WARNING 2024-02-15 11:14:01,313 log 6500 3764 Not Found: /favicon.ico
+WARNING 2024-02-15 11:14:01,314 basehttp 6500 3764 "GET /favicon.ico HTTP/1.1" 404 2449
+INFO 2024-02-16 10:00:28,153 autoreload 11440 3696 Watching for file changes with StatReloader
+INFO 2024-02-16 10:00:53,123 views 11440 1300 посещение страницы index в: 2024-02-16 10:00:53.123639
+INFO 2024-02-16 10:00:53,138 basehttp 11440 1300 "GET / HTTP/1.1" 200 1234
+WARNING 2024-02-16 10:00:53,339 log 11440 1300 Not Found: /favicon.ico
+WARNING 2024-02-16 10:00:53,340 basehttp 11440 1300 "GET /favicon.ico HTTP/1.1" 404 2449
+INFO 2024-02-16 10:02:25,153 autoreload 24524 20948 Watching for file changes with StatReloader
+INFO 2024-02-16 10:10:39,946 autoreload 24204 12404 Watching for file changes with StatReloader
+INFO 2024-02-16 10:11:46,019 autoreload 14788 26272 Watching for file changes with StatReloader
+INFO 2024-02-17 11:43:53,881 autoreload 18056 22752 Watching for file changes with StatReloader
+INFO 2024-02-17 12:01:31,424 autoreload 18056 22752 C:\Users\sonym\project\venv\Userssonymprojectvenv\Django\mydjango\myapp3\views.py changed, reloading.
+INFO 2024-02-17 12:01:32,242 autoreload 5544 20268 Watching for file changes with StatReloader
+INFO 2024-02-17 12:54:30,681 autoreload 5544 20268 C:\Users\sonym\project\venv\Userssonymprojectvenv\Django\mydjango\myapp3\models.py changed, reloading.
+INFO 2024-02-17 12:54:31,445 autoreload 6640 10596 Watching for file changes with StatReloader
+INFO 2024-02-17 12:56:12,952 basehttp 6640 30116 "GET / HTTP/1.1" 200 2636
+INFO 2024-02-17 12:56:13,172 basehttp 6640 15640 "GET /static/myapp3/css/style.css HTTP/1.1" 200 0
+INFO 2024-02-17 12:56:13,174 basehttp 6640 15520 "GET /static/myapp3/js/bootstrap.bundle.min.js HTTP/1.1" 200 67742
+INFO 2024-02-17 12:56:13,186 basehttp 6640 30116 "GET /static/myapp3/css/bootstrap.min.css HTTP/1.1" 200 144877
+INFO 2024-02-17 12:56:13,255 basehttp 6640 30116 "GET /static/myapp3/favicon.ico HTTP/1.1" 200 174246
+WARNING 2024-02-17 13:02:36,613 log 6640 10912 Not Found: /lastday//7
+WARNING 2024-02-17 13:02:36,614 basehttp 6640 10912 "GET /lastday//7? HTTP/1.1" 404 2480
+WARNING 2024-02-17 13:02:36,660 log 6640 10912 Not Found: /favicon.ico
+WARNING 2024-02-17 13:02:36,661 basehttp 6640 10912 "GET /favicon.ico HTTP/1.1" 404 2483
+WARNING 2024-02-17 13:02:44,472 log 6640 30084 Not Found: /lastday//30
+WARNING 2024-02-17 13:02:44,473 basehttp 6640 30084 "GET /lastday//30? HTTP/1.1" 404 2483
+WARNING 2024-02-17 13:02:56,092 log 6640 8128 Not Found: /lastday//365
+WARNING 2024-02-17 13:02:56,093 basehttp 6640 8128 "GET /lastday//365? HTTP/1.1" 404 2486
+INFO 2024-02-17 14:43:19,401 autoreload 2616 10864 Watching for file changes with StatReloader
+INFO 2024-02-17 14:43:50,824 basehttp 2616 8252 "GET / HTTP/1.1" 200 2636
+INFO 2024-02-17 14:43:50,885 basehttp 2616 8252 "GET /static/myapp3/css/bootstrap.min.css HTTP/1.1" 304 0
+INFO 2024-02-17 14:43:50,891 basehttp 2616 26984 "GET /static/myapp3/css/style.css HTTP/1.1" 304 0
+INFO 2024-02-17 14:43:50,906 basehttp 2616 12652 "GET /static/myapp3/js/bootstrap.bundle.min.js HTTP/1.1" 304 0
+INFO 2024-02-17 15:18:06,316 autoreload 19636 26072 Watching for file changes with StatReloader
+INFO 2024-02-17 15:18:20,587 basehttp 19636 21368 "GET /static/myapp3/css/bootstrap.min.css HTTP/1.1" 304 0
+INFO 2024-02-17 15:18:20,593 basehttp 19636 21368 "GET /static/myapp3/css/style.css HTTP/1.1" 304 0
+INFO 2024-02-17 15:18:20,593 basehttp 19636 28748 "GET /static/myapp3/js/bootstrap.bundle.min.js HTTP/1.1" 304 0
+INFO 2024-02-17 15:18:20,640 basehttp 19636 28748 "GET /static/myapp3/favicon.ico HTTP/1.1" 304 0
+WARNING 2024-02-17 15:19:09,166 log 19636 17692 Not Found: /myapp2/customer_orders/
+WARNING 2024-02-17 15:19:09,167 basehttp 19636 17692 "GET /myapp2/customer_orders/ HTTP/1.1" 404 2737
+ERROR 2024-02-17 15:21:33,270 log 19636 16180 Internal Server Error: /myapp2/customer_orders/1/
+Traceback (most recent call last):
+  File "C:\Users\sonym\project\venv\Lib\site-packages\django\db\backends\utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sonym\project\venv\Lib\site-packages\django\db\backends\sqlite3\base.py", line 329, in execute
+    return super().execute(query, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+sqlite3.OperationalError: no such column: myapp2_user.phone
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\sonym\project\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sonym\project\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sonym\project\venv\Lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sonym\project\venv\Lib\site-packages\django\views\generic\base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sonym\project\venv\Userssonymprojectvenv\Django\mydjango\myapp2\views.py", line 9, in get
+    customer = User.objects.get(pk=customer_id)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sonym\project\venv\Lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sonym\project\venv\Lib\site-packages\django\db\models\query.py", line 645, in get
+    num = len(clone)
+          ^^^^^^^^^^
+  File "C:\Users\sonym\project\venv\Lib\site-packages\django\db\models\query.py", line 382, in __len__
+    self._fetch_all()
+  File "C:\Users\sonym\project\venv\Lib\site-packages\django\db\models\query.py", line 1928, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sonym\project\venv\Lib\site-packages\django\db\models\query.py", line 91, in __iter__
+    results = compiler.execute_sql(
+              ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sonym\project\venv\Lib\site-packages\django\db\models\sql\compiler.py", line 1562, in execute_sql
+    cursor.execute(sql, params)
+  File "C:\Users\sonym\project\venv\Lib\site-packages\django\db\backends\utils.py", line 122, in execute
+    return super().execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sonym\project\venv\Lib\site-packages\django\db\backends\utils.py", line 79, in execute
+    return self._execute_with_wrappers(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sonym\project\venv\Lib\site-packages\django\db\backends\utils.py", line 92, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sonym\project\venv\Lib\site-packages\django\db\backends\utils.py", line 100, in _execute
+    with self.db.wrap_database_errors:
+  File "C:\Users\sonym\project\venv\Lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "C:\Users\sonym\project\venv\Lib\site-packages\django\db\backends\utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sonym\project\venv\Lib\site-packages\django\db\backends\sqlite3\base.py", line 329, in execute
+    return super().execute(query, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+django.db.utils.OperationalError: no such column: myapp2_user.phone
+ERROR 2024-02-17 15:21:33,281 basehttp 19636 16180 "GET /myapp2/customer_orders/1/ HTTP/1.1" 500 157820
+INFO 2024-02-17 15:24:29,943 autoreload 19636 26072 C:\Users\sonym\project\venv\Userssonymprojectvenv\Django\mydjango\myapp2\urls.py changed, reloading.
+INFO 2024-02-17 15:24:30,526 autoreload 29876 24420 Watching for file changes with StatReloader
+ERROR 2024-02-17 15:24:51,520 log 29876 25924 Internal Server Error: /myapp2/customer_orders/1/
+Traceback (most recent call last):
+  File "C:\Users\sonym\project\venv\Lib\site-packages\django\db\backends\utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sonym\project\venv\Lib\site-packages\django\db\backends\sqlite3\base.py", line 329, in execute
+    return super().execute(query, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+sqlite3.OperationalError: no such column: myapp2_user.phone
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\sonym\project\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sonym\project\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sonym\project\venv\Lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sonym\project\venv\Lib\site-packages\django\views\generic\base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sonym\project\venv\Userssonymprojectvenv\Django\mydjango\myapp2\views.py", line 9, in get
+    customer = User.objects.get(pk=customer_id)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sonym\project\venv\Lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sonym\project\venv\Lib\site-packages\django\db\models\query.py", line 645, in get
+    num = len(clone)
+          ^^^^^^^^^^
+  File "C:\Users\sonym\project\venv\Lib\site-packages\django\db\models\query.py", line 382, in __len__
+    self._fetch_all()
+  File "C:\Users\sonym\project\venv\Lib\site-packages\django\db\models\query.py", line 1928, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sonym\project\venv\Lib\site-packages\django\db\models\query.py", line 91, in __iter__
+    results = compiler.execute_sql(
+              ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sonym\project\venv\Lib\site-packages\django\db\models\sql\compiler.py", line 1562, in execute_sql
+    cursor.execute(sql, params)
+  File "C:\Users\sonym\project\venv\Lib\site-packages\django\db\backends\utils.py", line 122, in execute
+    return super().execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sonym\project\venv\Lib\site-packages\django\db\backends\utils.py", line 79, in execute
+    return self._execute_with_wrappers(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sonym\project\venv\Lib\site-packages\django\db\backends\utils.py", line 92, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sonym\project\venv\Lib\site-packages\django\db\backends\utils.py", line 100, in _execute
+    with self.db.wrap_database_errors:
+  File "C:\Users\sonym\project\venv\Lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "C:\Users\sonym\project\venv\Lib\site-packages\django\db\backends\utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sonym\project\venv\Lib\site-packages\django\db\backends\sqlite3\base.py", line 329, in execute
+    return super().execute(query, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+django.db.utils.OperationalError: no such column: myapp2_user.phone
+ERROR 2024-02-17 15:24:51,541 basehttp 29876 25924 "GET /myapp2/customer_orders/1/ HTTP/1.1" 500 157957
+INFO 2024-02-17 15:25:27,792 autoreload 29876 24420 C:\Users\sonym\project\venv\Userssonymprojectvenv\Django\mydjango\myapp2\urls.py changed, reloading.
+INFO 2024-02-17 15:25:28,393 autoreload 13672 19056 Watching for file changes with StatReloader
+ERROR 2024-02-17 15:26:30,417 log 13672 11820 Internal Server Error: /myapp2/customer_orders/
+Traceback (most recent call last):
+  File "C:\Users\sonym\project\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sonym\project\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sonym\project\venv\Lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sonym\project\venv\Lib\site-packages\django\views\generic\base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: CustomerOrdersView.get() missing 1 required positional argument: 'customer_id'
+ERROR 2024-02-17 15:26:30,419 basehttp 13672 11820 "GET /myapp2/customer_orders/ HTTP/1.1" 500 82634
+INFO 2024-02-17 15:29:42,838 autoreload 13672 19056 C:\Users\sonym\project\venv\Userssonymprojectvenv\Django\mydjango\myapp2\urls.py changed, reloading.
+INFO 2024-02-17 15:29:43,405 autoreload 18804 9056 Watching for file changes with StatReloader
+INFO 2024-02-17 15:31:59,838 autoreload 18804 9056 C:\Users\sonym\project\venv\Userssonymprojectvenv\Django\mydjango\myapp2\views.py changed, reloading.
+INFO 2024-02-17 15:32:00,372 autoreload 12308 8972 Watching for file changes with StatReloader
+INFO 2024-02-17 15:33:00,494 autoreload 2644 14828 Watching for file changes with StatReloader
+WARNING 2024-02-17 15:33:11,723 log 2644 18392 Not Found: /myapp2/customer_orders/
+WARNING 2024-02-17 15:33:11,724 basehttp 2644 18392 "GET /myapp2/customer_orders/ HTTP/1.1" 404 2737
+INFO 2024-02-17 15:41:10,685 autoreload 2644 14828 C:\Users\sonym\project\venv\Userssonymprojectvenv\Django\mydjango\myapp2\views.py changed, reloading.
+INFO 2024-02-17 15:41:11,296 autoreload 28104 21392 Watching for file changes with StatReloader
+INFO 2024-02-17 15:46:39,003 autoreload 25736 24760 Watching for file changes with StatReloader
+ERROR 2024-02-17 15:47:11,526 log 25736 28212 Internal Server Error: /myapp2/customer_orders/1/
+Traceback (most recent call last):
+  File "C:\Users\sonym\project\venv\Lib\site-packages\django\db\backends\utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sonym\project\venv\Lib\site-packages\django\db\backends\sqlite3\base.py", line 329, in execute
+    return super().execute(query, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+sqlite3.OperationalError: no such column: myapp2_user.phone
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\sonym\project\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sonym\project\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sonym\project\venv\Lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sonym\project\venv\Lib\site-packages\django\views\generic\base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sonym\project\venv\Userssonymprojectvenv\Django\mydjango\myapp2\views.py", line 9, in get
+    customer = User.objects.get(pk=customer_id)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sonym\project\venv\Lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sonym\project\venv\Lib\site-packages\django\db\models\query.py", line 645, in get
+    num = len(clone)
+          ^^^^^^^^^^
+  File "C:\Users\sonym\project\venv\Lib\site-packages\django\db\models\query.py", line 382, in __len__
+    self._fetch_all()
+  File "C:\Users\sonym\project\venv\Lib\site-packages\django\db\models\query.py", line 1928, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sonym\project\venv\Lib\site-packages\django\db\models\query.py", line 91, in __iter__
+    results = compiler.execute_sql(
+              ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sonym\project\venv\Lib\site-packages\django\db\models\sql\compiler.py", line 1562, in execute_sql
+    cursor.execute(sql, params)
+  File "C:\Users\sonym\project\venv\Lib\site-packages\django\db\backends\utils.py", line 122, in execute
+    return super().execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sonym\project\venv\Lib\site-packages\django\db\backends\utils.py", line 79, in execute
+    return self._execute_with_wrappers(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sonym\project\venv\Lib\site-packages\django\db\backends\utils.py", line 92, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sonym\project\venv\Lib\site-packages\django\db\backends\utils.py", line 100, in _execute
+    with self.db.wrap_database_errors:
+  File "C:\Users\sonym\project\venv\Lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "C:\Users\sonym\project\venv\Lib\site-packages\django\db\backends\utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sonym\project\venv\Lib\site-packages\django\db\backends\sqlite3\base.py", line 329, in execute
+    return super().execute(query, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+django.db.utils.OperationalError: no such column: myapp2_user.phone
+ERROR 2024-02-17 15:47:11,535 basehttp 25736 28212 "GET /myapp2/customer_orders/1/ HTTP/1.1" 500 157820
+WARNING 2024-02-17 15:48:06,200 log 25736 29692 Not Found: /myapp2/
+WARNING 2024-02-17 15:48:06,201 basehttp 25736 29692 "GET /myapp2/ HTTP/1.1" 404 2689
+INFO 2024-02-17 15:48:36,752 basehttp 25736 29692 "GET / HTTP/1.1" 200 2636
+INFO 2024-02-17 15:48:36,817 basehttp 25736 29692 "GET /static/myapp3/css/bootstrap.min.css HTTP/1.1" 304 0
+INFO 2024-02-17 15:48:36,819 basehttp 25736 14432 "GET /static/myapp3/css/style.css HTTP/1.1" 304 0
+INFO 2024-02-17 15:48:36,819 basehttp 25736 3032 "GET /static/myapp3/js/bootstrap.bundle.min.js HTTP/1.1" 304 0
+WARNING 2024-02-17 15:48:42,124 log 25736 3032 Not Found: /about
+WARNING 2024-02-17 15:48:42,125 basehttp 25736 3032 "GET /about HTTP/1.1" 404 2572
+INFO 2024-02-17 15:48:57,496 basehttp 25736 3032 "GET /admin/ HTTP/1.1" 302 0
+INFO 2024-02-17 15:48:57,529 basehttp 25736 3032 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4158
+INFO 2024-02-17 15:48:57,711 basehttp 25736 14432 "GET /static/admin/css/dark_mode.css HTTP/1.1" 200 2682
+INFO 2024-02-17 15:48:57,716 basehttp 25736 14432 "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 200 3063
+INFO 2024-02-17 15:48:57,718 basehttp 25736 27452 "GET /static/admin/css/login.css HTTP/1.1" 200 958
+INFO 2024-02-17 15:48:57,720 basehttp 25736 3032 "GET /static/admin/css/base.css HTTP/1.1" 200 21544
+INFO 2024-02-17 15:48:57,723 basehttp 25736 29692 "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 200 2810
+INFO 2024-02-17 15:48:57,727 basehttp 25736 23900 "GET /static/admin/css/responsive.css HTTP/1.1" 200 17905
+INFO 2024-02-17 15:48:57,731 basehttp 25736 4284 "GET /static/admin/js/theme.js HTTP/1.1" 200 1943
