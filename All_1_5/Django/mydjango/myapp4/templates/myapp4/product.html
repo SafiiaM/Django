@@ -1,0 +1,37 @@
+{% extends 'myapp4/base.html' %}
+
+{% block title %}
+    {% if form.id.value == '0' %}
+        Добавление товара
+    {% else %}
+        Редактирование товара
+    {% endif %}
+{% endblock %}
+
+{% block header %}
+    <h1>
+        {% if form.id.value == '0' %}
+            Добавление товара
+        {% else %}
+            Редактирование товара
+        {% endif %}
+    </h1>
+{% endblock %}
+
+{% block content %}
+    <div class="text-body text-justify">
+        <form method="post" enctype="multipart/form-data">
+            {% csrf_token %}
+            {{ form.id }}
+            {{ form.name }}
+            {{ form.description }}
+            {{ form.price }}
+            {{ form.amount }}
+            {{ form.image }}
+            <button type="submit" class="btn btn-primary">Сохранить</button>
+        </form>
+        <p>{{ message }}</p>
+        <a href="{% url 'lastday' form.client_id.value 7 %}">Вернуться к заказам</a>
+
+    </div>
+{% endblock %}
